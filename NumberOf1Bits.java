@@ -1,4 +1,4 @@
-public class NumberOfBits {
+public class NumberOf1Bits {
     public int hammingWeight(int n) {
         int count = 0;
         for(int i=1; i<33; i++) {
@@ -10,6 +10,6 @@ public class NumberOfBits {
     }
 
     public Boolean getBit(int n, int i) {
-        return 0;
+        return (n & (1 << i)) != 0;
     }
 }
