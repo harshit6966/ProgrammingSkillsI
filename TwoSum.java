@@ -5,15 +5,15 @@ public class TwoSum {
             for(int j=i+1; j<l-1; j++) {
                 if(nums[i] + nums[j] == target)
                     return new int[]{i+1, j+1};
-                return new int[]{-1,-1};
             }
         }
+        return new int[]{-1,-1};
     }
 
     public static void main(String[] args) {
-        int[] nums = {2,3,2};
-        int target = 3;
-        int res = twoSum(nums,target);
+        int[] nums = {3,2,4};
+        int target = 6;
+        int res = twoSum(nums, target);
         System.out.println("====" +res);
     }
 }
