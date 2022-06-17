@@ -26,7 +26,7 @@ public class PascalsTriangle {
     }
 
     public static void main(String[] args) {
-        int numRows = 5;
+        int numRows = 4;
         PascalsTriangle pt = new PascalsTriangle();
         System.out.println(pt.generate(numRows));
     }
